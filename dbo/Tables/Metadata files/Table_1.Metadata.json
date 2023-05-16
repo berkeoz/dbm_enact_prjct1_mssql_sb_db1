@@ -44,5 +44,37 @@
     }
   ],
   "Foreign keys": [],
-  "Indexes": []
+  "Indexes": [
+    {
+      "allow_page_locks": true,
+      "allow_row_locks": true,
+      "auto_created": false,
+      "Columns": [
+        {
+          "is_descending_key": false,
+          "key_ordinal": 1,
+          "name": "col1"
+        }
+      ],
+      "compression_delay": null,
+      "data_space_id": 1,
+      "fill_factor": 0,
+      "filter_definition": null,
+      "has_filter": false,
+      "ignore_dup_key": false,
+      "is_disabled": false,
+      "is_hypothetical": false,
+      "is_ignored_in_optimization": false,
+      "is_padded": false,
+      "is_primary_key": true,
+      "is_unique": true,
+      "name": "PK_Table_1",
+      "obj": "Table_1",
+      "optimize_for_sequential_key": false,
+      "schem": "dbo",
+      "suppress_dup_key_messages": false,
+      "type": "Table",
+      "type_desc": "CLUSTERED"
+    }
+  ]
 }
